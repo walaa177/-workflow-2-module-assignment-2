@@ -9,4 +9,4 @@ const wrapper = shallow(Heading());
 
 test("rutern the header h1", ()=>{
     expect(wrapper.text()).toEqual('Workflow 2');
-})
+}) 
